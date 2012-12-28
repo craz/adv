@@ -38,7 +38,8 @@ if ($zf2Path) {
         $autoloader = new \Zend\Loader\StandardAutoloader(array(
                     'namespaces' => array(
                         'Craz' => __DIR__ . '/library/Craz',
-                        "Zend"=>__DIR__ . '/library/Zend'
+                        'Zend'=>__DIR__ . '/library/Zend',
+                        'Utils'=>__DIR__."/utils"
                     ),
                     'fallback_autoloader' => true,
                         )
